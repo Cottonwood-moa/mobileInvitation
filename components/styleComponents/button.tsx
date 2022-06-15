@@ -20,7 +20,7 @@ export default function Button({
     <button
       {...rest}
       className={cls(
-        "relative w-auto rounded-md border border-transparent bg-[#937C6F] px-4 font-['Dongle'] font-medium text-white shadow-sm hover:bg-[#937C6F] focus:outline-none ",
+        "relative rounded-md border border-transparent bg-[#937C6F] px-4 font-['Dongle'] font-medium text-white shadow-sm hover:bg-[#937C6F] focus:outline-none ",
         large ? "py-3 text-2xl" : "py-2 text-xl ",
         addStyle ? addStyle : ""
       )}

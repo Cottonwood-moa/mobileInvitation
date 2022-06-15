@@ -19,7 +19,7 @@ export default function Phone({ addCss, snowFall, ...rest }: PhoneProps) {
       <motion.div
         {...rest}
         className={cls(
-          "relative  flex h-[22rem] w-[12rem] min-w-[12rem] flex-col items-center overflow-hidden rounded-2xl lg:h-[27rem] lg:w-[14.4rem] lg:min-w-[14.4rem]",
+          "relative flex h-[22rem] w-[12rem] min-w-[12rem] flex-col items-center overflow-hidden rounded-2xl lg:h-[27rem] lg:w-[14.4rem] lg:min-w-[14.4rem]",
           addCss ? addCss : ""
         )}
       >

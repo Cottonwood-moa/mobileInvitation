@@ -7,8 +7,8 @@ interface LayoutProps {
 
 export default function Layout({ title, children }: LayoutProps) {
   return (
-    <div>
-      <div className="absolute z-20 flex h-20 w-full items-center justify-between bg-white px-6 text-2xl font-normal  shadow-md">
+    <div className="min-w-[900px]">
+      <div className="absolute z-20 flex h-20 w-full min-w-[900px] items-center justify-between bg-white px-6 text-2xl font-normal shadow-md">
         <div className="relative flex items-center">
           <span>{title}</span>
         </div>
@@ -50,7 +50,8 @@ export default function Layout({ title, children }: LayoutProps) {
         </div>
       </div>
       {children}
-      <div className="flex h-[30vh] flex-col items-center justify-end">
+      {/* footer */}
+      <div className="relative flex h-[30vh] flex-col items-center justify-end bg-white">
         <div className="m-20 text-4xl font-normal">{title}</div>
         <div className="mb-12">
           Copyright ©2022 All rights reserved | by Cottonwood
