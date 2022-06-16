@@ -16,6 +16,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Phone from "@components/Home/Phone";
 import { font, font_size, tablet } from "@libs/client/tailwindStyle";
+import React from "react";
+React.useLayoutEffect = React.useEffect;
 const Home: NextPage = () => {
   const { scrollY } = useViewportScroll();
   const [device, setDevice] = useState("phone");
