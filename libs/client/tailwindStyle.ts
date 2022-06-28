@@ -22,4 +22,4 @@ export const font_size: IFontSize = {
 };
 
 export const tablet: string =
-  "mr-12 h-[16.8rem] w-[24rem] rounded-2xl border-[8px] border-slate-800 shadow-2xl sm:h-[19.6rem] sm:w-[28rem] md:h-[22.4rem] md:w-[32rem] lg:h-[25.2rem] lg:w-[36rem] xl:h-[28rem] xl:w-[40rem]";
+  "mr-12 h-[16.8rem] w-[24rem] rounded-2xl border-[4px] border-slate-800 shadow-2xl sm:h-[19.6rem] sm:w-[28rem] md:h-[22.4rem] md:w-[32rem] lg:h-[25.2rem] lg:w-[36rem] xl:h-[28rem] xl:w-[40rem]";
